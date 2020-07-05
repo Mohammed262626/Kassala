@@ -16,7 +16,7 @@ def index():
 
 
 @app.route('/get')
-def index():
+def get():
     return 'get'
 
 @app.route('/signin', methods=['POST'])
